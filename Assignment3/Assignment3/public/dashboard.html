@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <div class="card dashboard-card">
+    <h2 id="welcomeText">Dashboard</h2>
+
+    <div class="button-group">
+      <button id="loadUsersBtn" class="primary-btn">Load Users</button>
+      <button onclick="logout()" class="secondary-btn">Logout</button>
+    </div>
+
+    <div id="usersList"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
