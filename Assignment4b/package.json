@@ -1,0 +1,9 @@
+{
+  "name": "assignment4b-travel-booking",
+  "version": "1.0.0",
+  "description": "jQuery Mobile travel booking website with a simple Node.js backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

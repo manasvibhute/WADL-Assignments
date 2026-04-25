@@ -1,0 +1,128 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Main */
+.main-bg {
+    background: transparent;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 12px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111827; /* dark navbar */
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff; /* white */
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 22px;
+    color: #e5e7eb; /* soft white */
+    font-size: 0.95rem;
+}
+
+    .nav-links a.active {
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #16b979;
+    padding-bottom: 4px;
+}
+
+/* Green Content Box */
+.content-box {
+    margin-top: 30px;
+    background-color: #71fac3;
+    border-radius: 40px;
+    padding: 35px 30px;
+    text-align: center;
+    width: 85%;
+    max-width: 900px;
+}
+
+/* Pill */
+.pill {
+    display: inline-block;
+    background-color: rgba(1, 43, 36, 0.952);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+/* Heading */
+.center-title {
+    font-size: 2.2rem;
+    color: black;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.center-title span {
+    color: black;
+    font-weight: bold;
+}
+
+/* Description */
+.description {
+    margin: 15px auto;
+    max-width: 650px;
+    font-size: 0.95rem;
+    color: black;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.btn-group {
+    margin-top: 20px;
+}
+
+.start-btn {
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 8px;
+    border: 2px solid #16b979;
+}
+
+/* Full white button */
+.white {
+    background-color: white;
+    color: #16b979;
+    border: none;
+}
+
+/* White border button */
+.outline-white {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Hover */
+.start-btn:hover {
+    opacity: 0.9;
+}
